@@ -6,24 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>myPortfolio</title>
     <link rel="icon" type="image/png" href="/img/short.jpg"/>
-    <link rel="stylesheet" href=vendor/bootstrap/css/bootstrap.css>  
     <link rel="stylesheet" href="vendor/devicons/css/devicons.css">
     <link rel="stylesheet" href="vendor/font-awesom/css/font-awesome.css">
     <link rel="stylesheet" href="style/style.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
 
     
 </head>
 <body>
-   <div class="sidenav">
-    <div class="text-center nav">
-    <a href=""><img src="/images/bg.jpg"  class="img-circle" alt="Image"></a> <br>
-     <a href="" class="first-a a" id="info"><p class="a">Инфо</p></a>
-     <a href=""><p class="a">Навыки</p></a>
-     <a href="" id="education" ><p class="a">Образование</p></a>
-     <a href="" ><p class="a">Увлечения</p></a>
-     <a href="" ><p class="a">Качества</p></a>
-      <a href="" ><p class="a">P.S</p></a>
-    </div>
+ <nav class="navbar navbar-inverse text-center">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+            </button>
+        </div>    
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+               <li><img src="img/put.jpg"  class="img-circle"  alt="logo"></li>
+                <li><a href="">Инфо</a></li>
+                <li><a href="">Навыки</a></li>
+                <li><a href="">Образование</a></li>  
+                <li><a href="" >Увлечения</a></li>  
+                <li><a href="" >Качества</a></li>  
+                <li><a href="" >P.S</a> </li> 
+            </ul>     
+       </div>  
+</nav>
 <div class="main">
     <div class="container-fluid">
         <a href="#info"></a> <h1>Oleynik <span style="color:#CC6633;">Vlad</span></h1><br>
@@ -156,7 +168,13 @@
             <p style="font-size: 16px;color:#CC6633;">В сумме это тоже что то великолепное не придумал.</p>
           </ul>
     </div>
-
+     
 </div>
 </body>
 </html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    var w = $(document).width();
+    console.log(w);
+</script>

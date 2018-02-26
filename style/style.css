@@ -1,0 +1,70 @@
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0 !important;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row .content {height: 450px;}
+    @media (min-width:960px){
+        .navbar-inverse{
+            height: 100% !important; /* Full-height: remove this if you want "auto" height */
+            width: 17em; /* Set the width of the sidebar */
+            position: fixed !important; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: 1; /* Stay on top */
+            top: 0; /* Stay at the top */
+            left: 0;
+            background-color: #111; /* Black */
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 20px; 
+            display: inline !important;
+           
+       
+          
+        }
+        .nav{
+             margin-top: 9em !important;
+             margin-left: 3em !important;
+             
+        }
+        .nav > li{
+             float: initial !important;
+            
+             
+            
+        }
+        .main{
+            margin-top:9em;
+        }
+        .main .container-fluid{
+            margin-left: 23em;
+            
+        }
+         .img-circle{
+            width: 100px; 
+            height: 100px;
+            border-style: solid 3px;
+            border-color:red;
+            
+        }
+        
+    }
+     @media (min-width:700px){
+        .img-circle{
+            width: 40px; 
+            height: 40px;
+            margin: 0.25em 0 0.25em 0;
+        }
+
+     }
+        @media (max-width:700px){
+        .img-circle{
+            width: 120px; 
+            height: 120px;
+        }
+    }
+    @media (min-width:960px){
+        .img-circle{
+            width: 120px; 
+            height: 120px;
+        }
+    }
