@@ -3,8 +3,9 @@
 body  {
   font-family:'Roboto';
   padding-top: 54px;
-  color: #868e96 !important;
-  background: #f5f5f8; 
+  color: #4f575e !important;
+  background: #fcfcfc !important; 
+  padding: 0px;
 }
 h1,
 h2,
@@ -23,7 +24,11 @@ h6 {
 }
 .main h2{
    font-size: 3em;
-   font-weight: 700;    
+   font-weight: 700;  
+   text-align: center; 
+   color: #237385 !important;
+
+
 }
 .main p{
     font-size: 19px;
@@ -50,7 +55,7 @@ h6 {
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #237385;
 }
 
 .list-social-icons a .fa-lg {
@@ -58,14 +63,23 @@ h6 {
 }
 
 .list-icons {
-  font-size: 3rem;
+  font-size: 36px;
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #237385;
 }
-.main .container-fluid{
-    margin-bottom: 13em;
+.main > .container-fluid{
+    margin-bottom: 5em; 
+    background: #fcfcfc;
+    box-shadow: 0px 1px 2px 3px rgba(0, 0, 0, .2);
+    height: 100%;
+    border-radius: 5px; 
+  
+    
+}
+.content{
+    margin-left: 2em;
 }
     
    
@@ -74,14 +88,15 @@ h6 {
     @media (min-width:960px){
         .navbar-inverse{
             height: 100%;
-            width: 17em;
+            width: 17.5%;
             position: fixed !important;
             z-index: 1;
             top: 0;
             left: 0;
-            background-color: #111; 
+            background-color:#2e313f !important; 
             overflow-x: hidden;
             padding-top: 20px; 
+            border-radius: 10px;
            
            
        
@@ -100,18 +115,16 @@ h6 {
         .main{
             margin-top:5em;
         }
+        .main {
+            margin-left: 18em;
+            margin-right: 1em;
+         
+           
+        }
         .main .container-fluid{
-            margin-left: 23em;
+          padding: 1em  1em 1em 1em ;
             
-        }
-         .img-circle{
-            width: 100px; 
-            height: 100px;
-            border-style: solid 3px;
-            border-color:red;
-            
-        }
-        
+        }  
     }
      @media (min-width:700px){
         .img-circle{
@@ -133,3 +146,10 @@ h6 {
             height: 120px;
         }
     }
+
+      @media (max-width:960px){
+      .main{
+            padding: 0 1em 0 1em;
+    
+    }
+}
