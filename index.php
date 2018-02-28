@@ -11,12 +11,9 @@
     <link rel="stylesheet" href="style/style.css">  
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-
-
-    
 </head>
 <body>
- <nav class="navbar navbar-inverse text-center">
+<nav class="navbar navbar-inverse text-center">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -26,13 +23,13 @@
         </div>    
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-               <li><img src="img/put.jpg"  class="img-circle"  alt="logo"></li>
+                <li><img src="img/put.jpg"  class="img-circle"  alt="logo"></li>
                 <li><a href="">Инфо</a></li>
                 <li><a href="">Навыки</a></li>
                 <li><a href="">Образование</a></li>  
-                <li><a href="" >Увлечения</a></li>  
-                <li><a href="" >Качества</a></li>  
-                <li><a href="" >P.S</a> </li> 
+                <li><a href="">Увлечения</a></li>  
+                <li><a href="">Качества</a></li>  
+                <li><a href="">P.S</a> </li> 
             </ul>     
        </div>  
 </nav>
@@ -102,7 +99,7 @@
             </li>
              <li class="list-inline-item">
                 <i class="devicon-photoshop-plain"></i>
-            </li>
+            </li>git
             
             <li class="list-inline-item">
                 <i class="devicon-intellij-plain"></i>
@@ -172,9 +169,6 @@
 </div>
 </body>
 </html>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script>
-    var w = $(document).width();
-    console.log(w);
-</script>
+<script type="text/javascript" src="vendor/JS/jquery-3.3.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
