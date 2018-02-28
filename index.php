@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>myPortfolio</title>
     <link rel="icon" type="image/png" href="/img/short.jpg"/>
-    <link rel="stylesheet" href="vendor/devicons/css/devicons.css">
-    <link rel="stylesheet" href="vendor/font-awesom/css/font-awesome.css">
     <link rel="stylesheet" href="style/style.css">  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 </head>
 <body>
@@ -99,7 +99,7 @@
             </li>
              <li class="list-inline-item">
                 <i class="devicon-photoshop-plain"></i>
-            </li>git
+            </li>
             
             <li class="list-inline-item">
                 <i class="devicon-intellij-plain"></i>
@@ -170,5 +170,5 @@
 </body>
 </html>
 <script type="text/javascript" src="vendor/JS/jquery-3.3.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
